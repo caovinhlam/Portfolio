@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* NAV style */
+
+nav {
+    display: flex;
+    padding: 0.5rem;
+    /* position: sticky;
+    top: 15px;
+    margin: auto; */
+}
+
+nav ul {
+    display:flex;
+    margin-left:auto;
+    align-items: center;
+    list-style: none;
+}
+
+nav li {
+    padding-right: 0.5rem;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+/* Main Style */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section img {
+    width: 100%;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+h1, h2 {
+    margin: 0.5rem;
+}
+
+.button {
+    margin: 1rem;
+    padding: 0.5rem;
+    border: 3px solid black;
+    text-decoration: none;
+    color: black;
+    border-radius: 10%;
+}
