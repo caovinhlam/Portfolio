@@ -19,6 +19,7 @@
   --dark-gray: #656565;
   --magenta: #ad445b;
   --light-blue: #a2d9ff;
+  --barlow-font: "Barlow", sans-serif;
 }
 
 /* GLOBAL STYLES */
@@ -26,7 +27,7 @@
 h1,
 h2 {
   margin: 0.5rem;
-  font-family: "Barlow", sans-serif;
+  font-family: var(--barlow-font);
   font-weight: 900;
 }
 
@@ -39,8 +40,9 @@ h2 {
 }
 
 p,
-a {
-  font-family: "Barlow", sans-serif;
+a,
+label {
+  font-family: var(--barlow-font);
 }
 
 body {
@@ -66,6 +68,10 @@ body {
 
 .git-button {
   color: black;
+}
+
+ul {
+  list-style: none;
 }
 
 /* NAV STYLES */
@@ -100,6 +106,10 @@ nav li {
 }
 
 nav li:hover {
+  background-color: var(--clay-gray);
+}
+
+nav a:active {
   background-color: var(--clay-gray);
 }
 
@@ -152,7 +162,9 @@ section img {
 }
 
 .project-columns,
-.two-columns {
+.two-columns,
+.blog-rows,
+form {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -161,6 +173,15 @@ section img {
 }
 
 .project-columns:nth-child(even) {
+  background-color: var(--light-blue);
+}
+
+.two-columns:nth-child(4n-3),
+.two-columns:nth-child(4n-2) {
+  background-color: var(--light-blue);
+}
+
+.project-container ul li:nth-child(even) {
   background-color: var(--light-blue);
 }
 
@@ -189,6 +210,25 @@ section img {
   padding: 0 0.5rem;
 }
 
+/* FORM PAGE STYLES */
+
+form {
+  width: 50%;
+}
+
+label {
+  padding: 1rem 0;
+}
+
+input {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+  height: 20vh;
+}
+
 /* MOBILE NAV STYLE */
 
 @media only screen and (max-width: 480px) {
@@ -205,7 +245,6 @@ section img {
 /* TABLET STYLES */
 
 @media only screen and (min-width: 481px) and (max-width: 1023px) {
-
   .tablet-container {
     display: flex;
     flex-direction: row;
@@ -224,6 +263,10 @@ section img {
     flex-wrap: wrap;
     flex: 2;
     padding: 1rem;
+  }
+
+  .blog-rows .tablet-aside {
+    align-items: flex-start;
   }
 }
 
@@ -255,8 +298,38 @@ section img {
     width: 50%;
   }
 
-  .two-columns:nth-child(4n-3),
-  .two-columns:nth-child(4n-2) {
-    background-color: var(--light-blue);
+  /* Blog page */
+
+  .blog-rows {
+    align-items: flex-start;
+  }
+
+  .blog-rows .tablet-aside {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 2;
+    padding: 1rem;
+  }
+
+  .blog-rows .tablet-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .blog-rows .project-img {
+    display: flex;
+    flex: 1;
+    width: 40%;
+    padding: 1rem;
+  }
+
+  .blog-rows .tablet-aside {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex: 2;
+    padding: 1rem;
   }
 }
