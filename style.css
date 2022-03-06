@@ -213,7 +213,7 @@ form {
 /* FORM PAGE STYLES */
 
 form {
-  width: 50%;
+  width: 70%;
 }
 
 label {
@@ -331,5 +331,11 @@ textarea {
     align-items: flex-start;
     flex: 2;
     padding: 1rem;
+  }
+
+  /* Form Page */
+
+  form {
+    width: 60%;
   }
 }
