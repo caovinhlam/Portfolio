@@ -1,0 +1,53 @@
+commit 268f4361bb379d0fe72da5950d940f8155001ea0
+Author: caovinhlam <caovinhlam@gmail.com>
+Date:   Sun Mar 6 22:39:06 2022 +1100
+
+    grammar correction
+
+commit 70bbad5ffb4ef1069e57447a705c1b2a9c4b4b6e
+Author: caovinhlam <caovinhlam@gmail.com>
+Date:   Sun Mar 6 21:22:30 2022 +1100
+
+    Added comments to the code and added images for readme
+
+commit a213c682f667fe37f59afc43b44ac9237ae04310
+Author: caovinhlam <caovinhlam@gmail.com>
+Date:   Sun Mar 6 14:36:41 2022 +1100
+
+    rearrange files and change form width
+
+commit 2ae071377434a09bb315b670506dbcd16ba2afbf
+Author: caovinhlam <caovinhlam@gmail.com>
+Date:   Sun Mar 6 04:48:32 2022 +1100
+
+    updated a tags and button to link to the correct url or page
+
+commit 323e2a58fcf844647544f118d8ed61ff27173096
+Author: caovinhlam <caovinhlam@gmail.com>
+Date:   Sun Mar 6 04:13:26 2022 +1100
+
+    mock resume, blog and contact page
+
+commit dddc32408cc29f860b089c99ad82b7626babc83f
+Author: caovinhlam <caovinhlam@gmail.com>
+Date:   Sat Mar 5 15:52:24 2022 +1100
+
+    Updated CSS Style and added projects page html. Modified class names to be more semantic
+
+commit 79c409ab6cd54efe1be717f6b2295b5ea1716098
+Author: caovinhlam <caovinhlam@gmail.com>
+Date:   Wed Mar 2 04:10:54 2022 +1100
+
+    Completed main html page layout and css
+
+commit eb8af49260f000eab2b8af39a6bfd6483ab70b48
+Author: caovinhlam <caovinhlam@gmail.com>
+Date:   Mon Feb 28 00:32:43 2022 +1100
+
+    Added ignore file and readme file. Rearrange images into the correct folder
+
+commit 45967b6b4030b51efa665b8b5d27f726741fb582
+Author: caovinhlam <caovinhlam@gmail.com>
+Date:   Sat Feb 26 02:36:10 2022 +1100
+
+    Initial commit
