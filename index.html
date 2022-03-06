@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CaoVinhLam-Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <!-- Importing font awesome icons -->
     <script
       src="https://kit.fontawesome.com/77b3ce0743.js"
       crossorigin="anonymous"
     ></script>
   </head>
+
   <body>
     <header>
+      <!-- Navbar component -->
       <nav>
         <a href="index.html" id="nav-logo">Cao Vinh Lam</a>
         <ul>
@@ -25,36 +28,46 @@
     </header>
 
     <main>
-      <section class="about-me">
+      <!-- Banner Component -->
+      <section class="banner">
         <h1>About Me</h1>
-        <img src="images/CaoVinhHoangLam_Photo-Cropped.jpg" />
+        <img src="images/CaoVinhHoangLam_Photo-Cropped.jpg" alt="close up photo of the website creator, Cao Vinh Lam"/>
         <h2>Who Am I?</h2>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque,
-          molestias, nesciunt enim quaerat eius eum velit porro, quidem
-          accusamus vero obcaecati voluptatum nemo fugiat sequi adipisci fugit
-          non quae facilis!
+          Coder by day. Gamer at night. Those two things are interchangeble
+          though.
         </p>
         <h2>Skills</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nobis
-          quod tempora illum, commodi hic atque eos quam. Doloribus, quisquam
-          voluptatibus! Ea, numquam laborum non minus adipisci laboriosam
-          quisquam nesciunt?
-        </p>
+        <div class="tech-stack">
+          <div class="stack-logo">
+            <i class="fa-brands fa-html5"></i>
+            <p>HTML</p>
+          </div>
+          <div class="stack-logo">
+            <i class="fa-brands fa-css3"></i>
+            <p>CSS</p>
+          </div>
+          <div class="stack-logo">
+            <i class="fa-brands fa-js"></i>
+            <p>Javascript</p>
+          </div>
+        </div>
         <a
           class="button"
           href="Software-Engineer-Resume.pdf"
           download="Software-Engineer-Resume.pdf"
-          >Download CV</a
-        >
+          >Download 
+        </a>
       </section>
 
+      <!-- Project components, each section is a column (3 columns) -->
       <div class="project-container">
+
         <section class="project-columns">
           <h2>Portfolio Website</h2>
+          <!-- Contents of the projects -->
           <div class="tablet-container">
-            <img src="images/placeholder.png" alt="" class="project-img" />
+            <img src="images/placeholder.png" alt="placeholder image" class="project-img" />
             <div class="tablet-aside">
               <div class="tech-stack">
                 <div class="stack-logo">
@@ -71,14 +84,16 @@
                 </div>
               </div>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim
-                incidunt soluta repellat? Quod vel, recusandae minus molestias
-                reiciendis atque asperiores laborum blanditiis fugit suscipit
-                facilis tenetur explicabo distinctio aspernatur modi?
+                My first project at CoderAcademy where I build my own personal portfolio to showcase projects that I have worked on and display my skills as a web developer to potential employers.
               </p>
               <div class="git-button-container">
                 <p>Github Repo</p>
-                <a class="git-button" href="https://github.com/caovinhlam/Portfolio" target="_blank" rel="noopener noreferrer">
+                <a
+                  class="git-button"
+                  href="https://github.com/caovinhlam/Portfolio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i class="fa-brands fa-github-alt fa-4x"></i>
                 </a>
               </div>
@@ -89,7 +104,7 @@
         <section class="project-columns">
           <h2>Terminal</h2>
           <div class="tablet-container">
-            <img src="images/placeholder.png" alt="" class="project-img" />
+            <img src="images/placeholder.png" alt="placeholder image" class="project-img" />
             <div class="tablet-aside">
               <div class="tech-stack">
                 <div class="stack-logo">
@@ -109,7 +124,7 @@
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim
                 incidunt soluta repellat? Quod vel, recusandae minus molestias
                 reiciendis atque asperiores laborum blanditiis fugit suscipit
-                facilis tenetur explicabo distinctio aspernatur modi?
+                facilis?
               </p>
               <div class="git-button-container">
                 <p>Github Repo</p>
@@ -125,7 +140,7 @@
         <section class="project-columns">
           <h2>Project 3</h2>
           <div class="tablet-container">
-            <img src="images/placeholder.png" alt="" class="project-img" />
+            <img src="images/placeholder.png" alt="placeholder image" class="project-img" />
             <div class="tablet-aside">
               <div class="tech-stack">
                 <div class="stack-logo">
@@ -145,7 +160,7 @@
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim
                 incidunt soluta repellat? Quod vel, recusandae minus molestias
                 reiciendis atque asperiores laborum blanditiis fugit suscipit
-                facilis tenetur explicabo distinctio aspernatur modi?
+                facilis?
               </p>
               <div class="git-button-container">
                 <p>Github Repo</p>
@@ -159,14 +174,23 @@
       </div>
     </main>
 
+    <!-- Footer component -->
     <footer>
       <div class="footer-container">
         <h2>Social Links</h2>
         <div class="logo-container">
-          <a href="https://github.com/caovinhlam" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://github.com/caovinhlam"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i class="fa-brands fa-github-alt fa-2x"></i>
           </a>
-          <a href="https://linkedin.com/in/cao-vinh-lam" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://linkedin.com/in/cao-vinh-lam"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i class="fa-brands fa-linkedin-in fa-2x"></i>
           </a>
         </div>

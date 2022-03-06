@@ -1,7 +1,3 @@
-@import url("https://fonts.google.com/specimen/Oswald");
-@import url("https://fonts.google.com/specimen/Source+Sans+Pro");
-@import url("https://fonts.google.com/specimen/Fredoka+One");
-@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Press+Start+2P&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;900&display=swap");
 
 * {
@@ -147,7 +143,7 @@ section img {
   padding-bottom: 1rem;
 }
 
-.about-me {
+.banner {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -156,7 +152,7 @@ section img {
   background-color: var(--light-blue);
 }
 
-.about-me img {
+.banner img {
   width: 20%;
   border-radius: 50%;
 }
@@ -176,8 +172,8 @@ form {
   background-color: var(--light-blue);
 }
 
-.two-columns:nth-child(4n-3),
-.two-columns:nth-child(4n-2) {
+.two-columns:nth-child(4n-1),
+.two-columns:nth-child(4n) {
   background-color: var(--light-blue);
 }
 

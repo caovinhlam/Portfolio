@@ -4,24 +4,38 @@ This website is a personal online portfolio of mine where I showcase all of the 
 
 ## URL
 
-[Website Url](https://google.com)
+[Website Url](https://caovinhlam.netlify.app/)
 
 ## Github repo
 
 [Repo](https://github.com/caovinhlam/Portfolio)
 
 ## Functionality / Feature
-- TBC
+- The website features 4 pages which the audience can navigate around to engage with the contents.
+- Each page will have a navigation bar, banner and footer to keep the theme consistent when traversing the website.
+- Each page layout are built responsively and is able to display each components dynamically at desktop, mobile and tablet viewport width.
 
 ## Sitemap
 
-![Sitemap](images/placeholder.png)
+![Sitemap](images/sitemap.png)
 
 
 ## Screenshots
 
-![Screenshots](images/placeholder.png)
+### HOME PAGE
+
+![Home Page](images/home-page.png)
+
+### PROJECTS PAGE
+
+![Projects Page](images/projects-page.png)
+
+### BLOGS PAGE
+![Home Page](images/blogs-page.png)
+
+### CONTACT PAGE
+![Home Page](images/contact-page.png)
 
 ## Tech Stack
 
-![Tech stack](images/front-end-stack.png)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) &nbsp;&nbsp; ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
