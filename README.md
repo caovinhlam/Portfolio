@@ -12,8 +12,8 @@ This website is a personal online portfolio of mine where I showcase all of the 
 
 ## Functionality / Feature
 - The website features 4 pages which the audience can navigate around to engage with the contents.
-- Each page will have a navigation bar, banner and footer to keep the theme consistent when traversing the website.
-- Each page layout are built responsively and is able to display each components dynamically at desktop, mobile and tablet viewport width.
+- Each page will have a navigation bar, banner and footer to keep the theme consistent when traversing through the website.
+- Each page layout are built responsively and can display each components dynamically at desktop, mobile and tablet viewport width.
 
 ## Sitemap
 
@@ -38,4 +38,4 @@ This website is a personal online portfolio of mine where I showcase all of the 
 
 ## Tech Stack
 
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) &nbsp;&nbsp; ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) &nbsp;&nbsp; ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) &nbsp;&nbsp; ![NETLIFY](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
